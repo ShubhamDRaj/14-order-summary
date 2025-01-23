@@ -58,7 +58,7 @@ p {
 a {
     color: var(--clr-primary-700);
     font-size: 0.8125rem;
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-semi-bold);
 }
 a:hover {
     color: hsl(var(--clr-primary-700-hsl), 0.6);
@@ -150,7 +150,7 @@ body {
 .button-primary {
     background-color: var(--clr-primary-700);
     color: var(--clr-neutral-100);
-    font-weight: var(--fw-semi-bold);
+    font-weight: var(--fw-bold);
     padding-block: 0.9375rem;
     box-shadow: 0px 10px 14px 8px hsla(245, 83%, 68%, 0.25);
 }
@@ -177,6 +177,10 @@ body {
         font-size: 0.875rem;
     }
 
+    .grid-flow {
+        gap: 0.375rem;
+    }
+
     .flex-gap {
         gap: 1.125rem;
     }
@@ -186,21 +190,20 @@ body {
     }
 
     .card-content {
-        padding: 2.75rem 3.125rem 3rem;
+        padding: 2.8125rem 3.125rem 3rem;
     }
     .card-heading {
         font-size: 1.75rem;
-        margin-block-end: 1rem;
+        margin-block-end: 1.125rem;
     }
     .card-text {
-        font-size: 1.0625rem;
         margin-inline: 0.875rem;
         margin-block-end: 1.1875rem; 
     }
 
     .plan-summary {
-        padding: 1.5625rem;
-        margin-block-end: 2.0625rem;
+        padding: 1.625rem;
+        margin-block-end: 2rem;
     }
     .plan-type {
         font-size: 1rem;
